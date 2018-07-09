@@ -7,7 +7,7 @@ import {Component, EventEmitter, Input, OnChanges, OnDestroy, OnInit, Output} fr
 })
 export class SeleccionComponent implements OnInit, OnDestroy, OnChanges {
 
-  @Input() imagen: string;
+  @Input()  imagen: string;
   @Input() texto: string;
   @Output() selecciono: EventEmitter<string>
     = new EventEmitter();

@@ -8,17 +8,20 @@
 
 
 .borde:hover{
-  border-color: #fff;
+  border-color: #7f7f7f;
+}
+.borde2:hover{
+  border-color: #FFFFFF;
 }
 
 .contenedor {
   text-align: center;
-  color: #8d8d8d;
+  color: #28342f;
 
   cursor:pointer;
 }
 
 .contenedor:hover {
-  color: #fff;
+  color: #7f7f7f;
 }
 

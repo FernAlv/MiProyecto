@@ -40,10 +40,23 @@ export class AppComponent {
     }
   ];
 
+  imagenEcuador = [
+    {
+      id:1,
+      imagen:'/assets/ecuador1.1.jpg',
+      texto:'Ecuador es un país con una vasta e ' +
+      'inigualable riqueza natural y cultural. La diversidad' +
+      ' de sus cuatro regiones ha dado lugar a cientos ' +
+      'de miles de especies de flora y fauna.'
+    }
+  ];
 
-
-
-
+  imagenContactenos = [
+    {
+      id:1,
+      imagen:'/assets/contactenos_opt.jpg'
+    }
+  ];
 
 
 
